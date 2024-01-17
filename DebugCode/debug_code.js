@@ -9,3 +9,12 @@ function performOperation() {
         displayResult("Please enter valid numbers");
     }
 }
+
+function multiply(a, b) {
+    debugger;
+    return a * b;
+}
+
+function displayResult(result) {
+    document.getElementById("result").textContent = `The result is: ${result}`;
+}
